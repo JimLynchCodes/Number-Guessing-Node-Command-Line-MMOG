@@ -1,0 +1,22 @@
+{
+  "name": "gg",
+  "version": "1.0.0",
+  "description": "A simple text-based online multiplayer game made in node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JimTheMan/Number-Guessing-Node-Command-Line-MMOG.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JimTheMan/Number-Guessing-Node-Command-Line-MMOG/issues"
+  },
+  "homepage": "https://github.com/JimTheMan/Number-Guessing-Node-Command-Line-MMOG#readme",
+  "dependencies": {
+    "ws": "^2.2.2"
+  }
+}
