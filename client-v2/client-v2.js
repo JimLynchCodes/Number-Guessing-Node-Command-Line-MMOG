@@ -2,7 +2,7 @@ const WebSocket = require('ws');
 var prompt = require('prompt');
 
 // const ws = new WebSocket('ws://localhost:8889');
-const ws = new WebSocket('ws://35.185.74.130/');
+const ws = new WebSocket('ws://104.196.54.87:443');
 
 var clientName = '';
 
