@@ -2,7 +2,7 @@
 A simple text-based online multiplayer game made in node.js 
 
 
-<img src="./Number-Guessing-Game-Screenshot.png" width="300px"/>
+<img src="./Number-Guessing-Game-Screenshot.png" width="500px"/>
 
 
 ## Backstory
