@@ -18,17 +18,10 @@ function beginPromptForGuess() {
             }
         }
     };
-
-    console.log('prompt is: ' + prompt.stopped + " " + !prompt.started)
-
     if (prompt.stopped || !prompt.started) {
-        console.log('starting prompt');
-
         prompt.get(numberSchema, function (err, result) {
             if (result) {
-                console.log('got number');
-                ws.send(JSON.stringify({ name: clientName, guess: result.number }));
-
+              ws.send(JSON.stringify({ name: clientName, guess: result.number }));
             }
         })
     }

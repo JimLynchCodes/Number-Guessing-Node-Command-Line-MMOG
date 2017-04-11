@@ -3,13 +3,9 @@ const util = require('util');
 
 const wss = new WebSocket.Server({ port: 8889 });
 
-var magicNum = Math.ceil(Math.random() * 5);
+var magicNum = Math.ceil(Math.random() * 20);
 var champion = "James";
 var connections = [];
-
-// if (process.env.INSTANCE_CONNECTION_NAME) {
-//     config.socketPath = '/cloudsql/${process.env.INSTANCE_CONNECTION_NAME}';
-// }
 
 console.log('server listening...');
 
