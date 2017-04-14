@@ -47,7 +47,7 @@ The client, in this case, also runs in the command line. When you run the client
 ## Client V1 vs V2
 The V1 version of the client expects you to send command line arguments when you run the file. The V2 version uses [prompt](https://github.com/flatiron/prompt) to give a more fluid experience for the user because the shell waits for user to submit input. 
 
-## Versions & Shit
+## Versions
 Works for me on:
 `npm 3.10.8`
 `node 6.9.1`
