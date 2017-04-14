@@ -49,5 +49,5 @@ The V1 version of the client expects you to send command line arguments when you
 
 ## Versions & Shit
 Works for me on:
-npm 3.10.8
-node 6.9.1
+`npm 3.10.8`
+`node 6.9.1`
